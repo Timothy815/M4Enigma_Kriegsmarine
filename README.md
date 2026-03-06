@@ -1,11 +1,20 @@
-<div align="center">
+# Enigma M4 Kriegsmarine Simulator
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A browser-based simulation of the 4-rotor Enigma M4 cipher machine used by the German Navy (Kriegsmarine) in WWII.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- Authentic 4-rotor M4 configuration (Greek rotor + 3 standard rotors)
+- All 8 Wehrmacht rotors (I–VIII) plus Beta and Gamma Greek rotors
+- Thin reflectors (B-Thin, C-Thin)
+- Double-stepping mechanism
+- Configurable plugboard, ring settings, and rotor positions
+- Physical keyboard and on-screen keyboard input
+- Output tape display
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Run Locally
 
-</div>
+**Prerequisites:** Node.js
+
+1. Install dependencies: `npm install`
+2. Run the app: `npm run dev`
